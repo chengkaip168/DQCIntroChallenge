@@ -1,0 +1,24 @@
+name: smoke-test
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Install pinned environment
+        run: python -m pip install -r requirements.txt pytest nbconvert
+      - name: Unit tests
+        run: python -m pytest -q tests
+      - name: Execute the participant notebook top to bottom
+        run: >
+          python -m jupyter nbconvert --to notebook --execute
+          --ExecutePreprocessor.timeout=600
+          --output /tmp/executed.ipynb
+          notebooks/Toffoli_Hardware_Hackathon_Challenge.ipynb

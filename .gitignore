@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+returned_results/
+submissions/
+.env
+ionq_jobs.json
+team_credentials.py
+
+# Organizer-only material (relay source, hidden mystery model, team secrets).
+# It must never be pushed to the participant repository; keep it in its own
+# private repository instead.
+toffoli_hackathon_organizer/
+ToffoliRelay_Code.gs
+*.gs

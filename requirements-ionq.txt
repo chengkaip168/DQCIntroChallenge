@@ -1,0 +1,4 @@
+# Extra package for the IonQ extension released at midnight (tested with qiskit-ionq 1.1.1).
+# Install from the repository root with:  python -m pip install -r requirements-ionq.txt
+-r requirements.txt
+qiskit-ionq==1.1.1

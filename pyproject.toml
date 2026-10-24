@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toffoli-hackathon"
+version = "0.1.0"
+description = "Participant utilities for the Toffoli hardware hackathon"
+requires-python = ">=3.10"
+# Compatible ranges; requirements.txt pins the exact tested versions.
+dependencies = [
+  "qiskit~=2.1.1",  # the lab runs Qiskit 2.1.1
+  "qiskit-aer~=0.18",
+  "matplotlib>=3.8,<4",
+  "numpy>=1.26,<3",
+  "pylatexenc>=2.10",  # required by QuantumCircuit.draw("mpl")
+  "jupyter>=1.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "nbconvert>=7"]
+ionq = ["qiskit-ionq>=1.1,<2"]  # IonQ extension (released at midnight)
+
+[tool.setuptools.packages.find]
+include = ["toffoli_challenge*"]

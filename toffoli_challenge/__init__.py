@@ -1,0 +1,63 @@
+"""Participant-facing helpers for the Toffoli hardware challenge."""
+
+from .submission import (
+    RELAY_URL,
+    configure_relay,
+    connect_team,
+    fetch_my_results,
+    remaining_hardware_shots,
+    submit_circuit,
+    submit_qasm_text,
+)
+from .validation import (
+    NATIVE_GATES,
+    STANDARD_SHOTS,
+    load_submission_qasm,
+    validate_submission_circuit,
+)
+from .benchmarking import (
+    TOFFOLI_INPUTS,
+    TruthTableReport,
+    baseline_native_toffoli,
+    bitstrings_to_counts,
+    compare_to_toffoli,
+    expected_output_bitstring,
+    ideal_toffoli_in_submission_order,
+    normalize_bitstring_list,
+    parse_result_filename,
+    result_queue_ids,
+    results_by_queue_id,
+    truth_table_row,
+    truth_table_from_bitstrings,
+    truth_table_from_results,
+    with_input_preparation,
+)
+
+__all__ = [
+    "RELAY_URL",
+    "configure_relay",
+    "connect_team",
+    "fetch_my_results",
+    "remaining_hardware_shots",
+    "submit_circuit",
+    "submit_qasm_text",
+    "NATIVE_GATES",
+    "STANDARD_SHOTS",
+    "load_submission_qasm",
+    "validate_submission_circuit",
+    "TOFFOLI_INPUTS",
+    "TruthTableReport",
+    "baseline_native_toffoli",
+    "bitstrings_to_counts",
+    "compare_to_toffoli",
+    "expected_output_bitstring",
+    "ideal_toffoli_in_submission_order",
+    "normalize_bitstring_list",
+    "parse_result_filename",
+    "result_queue_ids",
+    "results_by_queue_id",
+    "truth_table_row",
+    "truth_table_from_bitstrings",
+    "truth_table_from_results",
+    "with_input_preparation",
+]

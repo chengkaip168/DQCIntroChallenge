@@ -1,0 +1,9 @@
+# Exact versions the starter kit was tested with (Python 3.12).
+# Install from the repository root with:  python -m pip install -r requirements.txt
+qiskit==2.1.1
+qiskit-aer==0.18.0
+matplotlib==3.11.2
+numpy==2.5.4
+pylatexenc==2.10
+jupyter==1.1.1
+-e .
