@@ -1,0 +1,5883 @@
+{
+ "ionq-batch1": [
+  {
+   "index": 0,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "000",
+   "native_gates": []
+  },
+  {
+   "index": 1,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": []
+  },
+  {
+   "index": 9,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.721,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2545,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": []
+  },
+  {
+   "index": 11,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1489,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.1488030625
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5772,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7739,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2977,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.279,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2455,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 14,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1489,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.1488030625
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0771,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7739,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2977,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 15,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 16,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 17,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3511,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.1488030625
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.4761,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9999,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 18,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 19,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 20,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3511,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.1488030625
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.4761,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9999,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 21,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 22,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 23,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 24,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 25,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2669,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7767,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 26,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 27,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6011,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.1488030625
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2261,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2023,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 28,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7331,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7233,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 29,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 30,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6011,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.1488030625
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3749,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2261,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2023,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 31,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 32,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 33,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8989,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.1488030625
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8272,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0239,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0001,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 34,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 35,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7619,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7043,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 36,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8989,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.1488030625
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3272,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0239,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0001,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 37,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 38,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2381,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7957,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 39,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 40,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 41,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.1241,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8572,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1327,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6495,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.158,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7261,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 42,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": []
+  },
+  {
+   "index": 43,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3988,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6488,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7261,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 44,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.3759,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1428,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9182,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.4351,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9435,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7261,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 45,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 46,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1488,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8988,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0239,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 47,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 48,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 49,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1488,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3988,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7261,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 50,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 51,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8759,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.609,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3243,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8074,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0239,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 52,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8988,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6488,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0239,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 53,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 54,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6241,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.391,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6062,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0894,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0239,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 55,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 56,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 57,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.6241,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.391,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6155,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1324,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.624,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2739,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 58,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 59,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3988,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1488,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2739,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 60,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.8759,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.609,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3336,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8505,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.342,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2739,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 61,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 62,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1488,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3988,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9761,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 63,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 64,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 65,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1488,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8988,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2739,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 66,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 67,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3759,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1428,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.4257,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.4426,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9761,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 68,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8988,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1488,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9761,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 69,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 70,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1241,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8572,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22619536
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6402,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.657,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9761,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 71,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 72,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 73,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2584,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7752,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0506,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7838,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7261,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 74,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": []
+  },
+  {
+   "index": 75,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.0163,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5198,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 76,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2584,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7752,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0506,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7838,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7261,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 77,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 78,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.4989,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0225,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 79,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 80,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 81,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.4837,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.4802,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 82,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 83,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7416,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2584,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.483,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2499,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2739,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 84,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0011,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9775,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 85,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 86,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7416,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2584,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.483,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2499,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2739,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 87,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 88,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 89,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2323,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9486,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6817,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0239,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 90,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 91,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2379,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7855,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 92,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2323,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9486,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6817,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0239,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 93,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 94,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3243,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.271,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 95,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 96,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 97,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2621,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2145,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 98,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 99,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2659,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5497,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3165,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9761,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 100,
+   "kind": "test",
+   "design": "D1c-shifted",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1757,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.729,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 101,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 102,
+   "kind": "test",
+   "design": "D0-shifted",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2659,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": -0.22610024999999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5497,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3165,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9761,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 103,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  }
+ ],
+ "ionq-batch2": [
+  {
+   "index": 0,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "000",
+   "native_gates": []
+  },
+  {
+   "index": 1,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": []
+  },
+  {
+   "index": 9,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.2494,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.759,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2595,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.7506,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.741,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2404,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 14,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7531,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 15,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 16,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 17,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 18,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 19,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.747,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 20,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7548,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2726,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 21,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7596,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 22,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 23,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7404,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 24,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 25,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2452,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2274,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 26,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 27,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2365,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2353,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 28,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.247,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 29,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7635,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2647,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 30,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.253,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 31,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 32,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7596,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 33,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": []
+  },
+  {
+   "index": 34,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.1249,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8807,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24329556250000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.622,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1278,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24319692249999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1249,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7606,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 35,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 36,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.3751,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1193,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24329556250000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3606,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8664,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24319692249999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8635,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7606,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 37,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2596,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 38,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8751,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6309,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24329556250000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3925,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24319692249999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8983,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9894,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 39,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.253,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 40,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 41,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.747,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 42,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 43,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6249,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3691,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24329556250000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6307,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24319692249999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1365,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9894,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 44,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 45,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.6249,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3691,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24329556250000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1278,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6337,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24319692249999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6366,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2394,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 46,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2404,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 47,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.8751,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6309,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24329556250000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8896,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3955,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24319692249999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3984,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2394,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 48,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7404,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 49,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 50,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.747,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 51,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 52,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3751,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1193,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24329556250000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3575,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24319692249999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.3517,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0106,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 53,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 54,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.1249,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.8807,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24329556250000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.6189,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      2
+     ],
+     "angle": -0.24319692249999997
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.613,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0106,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 55,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.253,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 56,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24181806250000001
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7524,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2571,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24171972249999998
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0143,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7595,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7606,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 57,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7563,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 58,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": []
+  },
+  {
+   "index": 59,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2563,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 60,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 61,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24181806250000001
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7524,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2571,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24171972249999998
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0143,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7595,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7606,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 62,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 63,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24181806250000001
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2476,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7524,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24171972249999998
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.4952,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2394,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 64,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2437,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 65,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24181806250000001
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2476,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7524,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24171972249999998
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.4952,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2394,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 66,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7437,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 67,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 68,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2563,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 69,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 70,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24181806250000001
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7452,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24171972249999998
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9856,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7308,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9894,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 71,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 72,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24181806250000001
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7452,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24171972249999998
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9856,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7308,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.9894,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 73,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7437,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 74,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24181806250000001
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7547,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24171972249999998
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5142,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.269,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0106,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 75,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7437,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 76,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 77,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.2563,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 78,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 79,
+   "kind": "test",
+   "design": "D5",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24181806250000001
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.7547,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      0,
+      1
+     ],
+     "angle": 0.24171972249999998
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5142,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.269,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.0106,
+     "target": 1
+    }
+   ]
+  }
+ ]
+}
