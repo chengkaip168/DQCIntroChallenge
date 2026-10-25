@@ -3,6 +3,7 @@
 This repository is the participant-facing starter kit for the Toffoli challenge.
 Fork it, clone your fork, and work in
 `notebooks/Toffoli_Hardware_Hackathon_Challenge.ipynb`.
+Our team's report for this challenge is in `notebooks/team_toffoli.ipynb`.
 
 **The challenge:** build a Toffoli gate from the native gates `rx`, `ry`, `rz`
 and `rxx`, run it on real hardware, and **prove that your Toffoli gate is the
