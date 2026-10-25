@@ -1,6 +1,6 @@
 # DQC Challenge: our submission
 
-We claim D1c, the Toffoli construction of Barenco et al. (*Phys. Rev. A* 52, 3457, 1995) built from the native gates, with each run of one-qubit gates merged into `rz` and `ry`. On the DQC lab, the one machine that ran our circuits exactly as written, it tied the starter kit's baseline D0 and beat both of our calibrated designs, and our claim rule, fixed before the results, breaks the tie in its favor. On IonQ's Forte 1, with every gate running in IonQ's native gates, D1c and D0 were tied as well. Its OpenQASM, from `qasm2.dumps`, is in `evidence/D1c_claimed.qasm`.
+We claim D1c, the Toffoli construction of Barenco et al. (*Phys. Rev. A* 52, 3457, 1995) built from the native gates, with each run of one-qubit gates merged into `rz` and `ry`. On the DQC lab, the one machine that ran our circuits exactly as written, it tied the starter kit's baseline D0 and beat both of our calibrated designs, and our claim rule, fixed at 21:50 after round 1 and before round 2, breaks the tie in its favor by the higher raw truth-table score. On IonQ's Forte 1, with every gate running in IonQ's native gates, D1c and D0 were tied as well, in three separate jobs. Its OpenQASM, from `qasm2.dumps`, is in `evidence/D1c_claimed.qasm`.
 
 Our case, answering the questions of the starter notebook's Section 10, is in Section 10 of `notebooks/Toffoli_Hardware_Hackathon_Challenge.ipynb`. All our work, with every output, is in `notebooks/team_toffoli.ipynb`.
 
@@ -14,8 +14,9 @@ Our case, answering the questions of the starter notebook's Section 10, is in Se
 | DQC lab, round 2 | D1c 0.756 ± 0.015, D3 0.699 ± 0.017 | D1c better |
 | IonQ Forte 1, native gates (supplementary), 06:16 | D1c 0.912 ± 0.003, D0 0.906 ± 0.003 | tied |
 | IonQ Forte 1, native gates (supplementary), 07:22 | D1c 0.906 ± 0.003, D0 0.906 ± 0.003, D5 0.896 ± 0.004 | D1c and D0 tied; D5 just behind D0 and tied with D1c |
+| IonQ Forte 1, native gates (supplementary), 07:53 | D6 0.908 ± 0.003, D1c 0.907 ± 0.003, D0 0.901 ± 0.003 | all three tied |
 
-D0 is the starter kit's baseline. D2 and D3 are D0 with each `rxx` angle changed to cancel a measured error (Section 5), and D5 is D0 with angles fitted to IonQ's compiled circuits (Section 8.7).
+D0 is the starter kit's baseline. D2 and D3 are D0 with each `rxx` angle changed to cancel a measured error (Section 5), and D5 and D6 are D0 and D1c with angles fitted to IonQ's compiled circuits (Section 8.7).
 
 IonQ's cloud compiler rewrote our main Forte 1 runs before running them, and removed every entangling gate from D1c's test circuits, so those runs do not compare our designs. Section 8.9 shows this from the circuits IonQ actually ran, saved in `evidence/ionq/forte1_compiled_native_circuits.json`. For the native-gate run we translated D0 and D1c gate by gate into IonQ's native gates, so that every `rxx` runs (Section 8.10). We sent it before an organizer had said whether native gates are allowed, so we report it as supplementary.
 
@@ -57,4 +58,4 @@ Install the starter kit's environment (`requirements.txt`, plus `requirements-io
 | 05:55 | Reading back the circuits IonQ ran: its compiler had removed the entangling gates from many test circuits, including all of D1c's |
 | 06:16 to 06:58 | Forte 1 native-gate run of D0 and D1c, so that every gate runs: tied |
 | 07:22 | Forte 1 native-gate run of D1c, D5 and D0: D5 no better than either |
-| 07:53 | Forte 1 native-gate run of D1c, D6 and D0, not back when this was written |
+| 07:53 to 08:57 | Forte 1 native-gate run of D1c, D6 and D0: all three tied |

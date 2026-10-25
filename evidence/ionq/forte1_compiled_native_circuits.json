@@ -17205,5 +17205,6406 @@
     }
    ]
   }
+ ],
+ "native-qpu-d6": [
+  {
+   "index": 0,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "000",
+   "native_gates": []
+  },
+  {
+   "index": 1,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "kind": "readout",
+   "design": "",
+   "test_set": "",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "000",
+   "native_gates": [
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "001",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 14,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 15,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 16,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "010",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 17,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 18,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 19,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "011",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 20,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 21,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 22,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "100",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 23,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 24,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 25,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "101",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 26,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 27,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 28,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "110",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 29,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 30,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    }
+   ]
+  },
+  {
+   "index": 31,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "T",
+   "labels": "111",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 32,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999978,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 33,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": [
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 34,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "+0+",
+   "native_gates": [
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 35,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 36,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 37,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "+0-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999978,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 38,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 39,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999978,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 40,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 41,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999978,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 42,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 43,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "+1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 44,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 45,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 46,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "-0+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999972,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 47,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 48,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999972,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 49,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-0-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 50,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999972,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 51,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 52,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "-1+",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 53,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 54,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 55,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B1",
+   "labels": "-1-",
+   "native_gates": [
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999972,
+     "target": 2
+    }
+   ]
+  },
+  {
+   "index": 56,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    }
+   ]
+  },
+  {
+   "index": 57,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999978,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 58,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    }
+   ]
+  },
+  {
+   "index": 59,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999978,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 60,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    }
+   ]
+  },
+  {
+   "index": 61,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "0+-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    }
+   ]
+  },
+  {
+   "index": 62,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    }
+   ]
+  },
+  {
+   "index": 63,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    }
+   ]
+  },
+  {
+   "index": 64,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "0-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999993,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 65,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    }
+   ]
+  },
+  {
+   "index": 66,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999993,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 67,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "0--",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    }
+   ]
+  },
+  {
+   "index": 68,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999978,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 69,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    }
+   ]
+  },
+  {
+   "index": 70,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "1++",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    }
+   ]
+  },
+  {
+   "index": 71,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    }
+   ]
+  },
+  {
+   "index": 72,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    }
+   ]
+  },
+  {
+   "index": 73,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "1+-",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999978,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 74,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    }
+   ]
+  },
+  {
+   "index": 75,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.25,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999993,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 76,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1-+",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    }
+   ]
+  },
+  {
+   "index": 77,
+   "kind": "test",
+   "design": "D0",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.375,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.125,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": 0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      2
+     ],
+     "angle": -0.12500000000000014
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 0
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.12499999999999993,
+     "target": 1
+    }
+   ]
+  },
+  {
+   "index": 78,
+   "kind": "test",
+   "design": "D1c",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.12500000000000003
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.12500000000000003
+    }
+   ]
+  },
+  {
+   "index": 79,
+   "kind": "test",
+   "design": "D6",
+   "test_set": "B2",
+   "labels": "1--",
+   "native_gates": [
+    {
+     "gate": "gpi2",
+     "phase": 0.75,
+     "target": 1
+    },
+    {
+     "gate": "gpi",
+     "phase": 0,
+     "target": 0
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": -0.12500000000000003
+    },
+    {
+     "gate": "gpi",
+     "phase": 0.5,
+     "target": 2
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.625,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.875,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      1,
+      0
+     ],
+     "angle": 0.11865213829799166
+    },
+    {
+     "gate": "gpi2",
+     "phase": 0.5,
+     "target": 1
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      1
+     ],
+     "angle": -0.25
+    },
+    {
+     "gate": "zz",
+     "targets": [
+      2,
+      0
+     ],
+     "angle": -0.128359320323615
+    }
+   ]
+  }
  ]
 }
