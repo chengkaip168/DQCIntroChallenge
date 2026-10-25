@@ -12,11 +12,12 @@ Our case, answering the questions of the starter notebook's Section 10, is in Se
 |---|---|---|
 | DQC lab, round 1 | D1c 0.752 ± 0.015, D0 0.727 ± 0.016, D2 0.661 ± 0.017 | D1c and D0 tied; both better than D2 |
 | DQC lab, round 2 | D1c 0.756 ± 0.015, D3 0.699 ± 0.017 | D1c better |
-| IonQ Forte 1, native gates (supplementary) | D1c 0.912 ± 0.003, D0 0.906 ± 0.003 | tied |
+| IonQ Forte 1, native gates (supplementary), 06:16 | D1c 0.912 ± 0.003, D0 0.906 ± 0.003 | tied |
+| IonQ Forte 1, native gates (supplementary), 07:22 | D1c 0.906 ± 0.003, D0 0.906 ± 0.003, D5 0.896 ± 0.004 | D1c and D0 tied; D5 just behind D0 and tied with D1c |
 
-D0 is the starter kit's baseline. D2 and D3 are D0 with each `rxx` angle changed to cancel a measured error (Section 5).
+D0 is the starter kit's baseline. D2 and D3 are D0 with each `rxx` angle changed to cancel a measured error (Section 5), and D5 is D0 with angles fitted to IonQ's compiled circuits (Section 8.7).
 
-IonQ's cloud compiler rewrote our main Forte 1 runs before running them, and removed every entangling gate from D1c's test circuits, so those runs do not compare our designs. Section 8.10 shows this from the circuits IonQ actually ran, saved in `evidence/ionq/forte1_compiled_native_circuits.json`. For the native-gate run we translated D0 and D1c gate by gate into IonQ's native gates, so that every `rxx` runs (Section 8.11). We sent it before an organizer had said whether native gates are allowed, so we report it as supplementary.
+IonQ's cloud compiler rewrote our main Forte 1 runs before running them, and removed every entangling gate from D1c's test circuits, so those runs do not compare our designs. Section 8.9 shows this from the circuits IonQ actually ran, saved in `evidence/ionq/forte1_compiled_native_circuits.json`. For the native-gate run we translated D0 and D1c gate by gate into IonQ's native gates, so that every `rxx` runs (Section 8.10). We sent it before an organizer had said whether native gates are allowed, so we report it as supplementary.
 
 ## Where everything is
 
@@ -55,3 +56,5 @@ Install the starter kit's environment (`requirements.txt`, plus `requirements-io
 | 05:10 to 05:31 | Forte 1 batch 2: D1c, D5 and D6 |
 | 05:55 | Reading back the circuits IonQ ran: its compiler had removed the entangling gates from many test circuits, including all of D1c's |
 | 06:16 to 06:58 | Forte 1 native-gate run of D0 and D1c, so that every gate runs: tied |
+| 07:22 | Forte 1 native-gate run of D1c, D5 and D0: D5 no better than either |
+| 07:53 | Forte 1 native-gate run of D1c, D6 and D0, not back when this was written |
